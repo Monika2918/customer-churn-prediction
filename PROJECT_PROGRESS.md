@@ -97,24 +97,28 @@ This project uses customer information and service-related data to build a class
 - Convert the target variable into numerical labels.
 - Apply One-Hot Encoding to categorical features.
 - Save the processed feature and target datasets.
+- - Removed 11 records with missing TotalCharges values.
 
 ### DAY 4: FEATURE ENGINEERING AND DATA PREPARATION
 
-- Study the existing features.
-- Identify useful features for churn prediction.
-- Explore meaningful feature transformations.
-- Prepare the final input features and target variable.
+- Reviewed the processed input features.
+- Loaded the processed feature and target datasets.
 - Split the dataset into training and testing sets.
-- Check the dimensions and distribution of the resulting datasets.
+- Used stratified sampling to maintain class distribution.
+- Applied StandardScaler for feature scaling.
+- Transformed training and testing features.
+- Verified the scaled feature values.
 
 ### DAY 5: FIRST MACHINE LEARNING MODEL – LOGISTIC REGRESSION
 
-- Understand supervised learning and classification.
-- Learn the working principle of Logistic Regression.
-- Train the Logistic Regression model.
-- Generate predictions on test data.
-- Evaluate the initial model.
-- Understand the importance of feature scaling where required.
+- Understood supervised learning and classification.
+- Created a Logistic Regression model using Scikit-learn.
+- Trained the model using training data.
+- Generated predictions on test data.
+- Compared actual and predicted values.
+- Evaluated the model using accuracy score.
+- Achieved an initial test accuracy of 80.38%.
+- Understood the importance of feature scaling.
 
 ### DAY 6: ADDITIONAL MACHINE LEARNING MODELS
 
@@ -244,16 +248,17 @@ By completing this project, the following concepts and skills will be practiced:
 
 ## 10. PROJECT STATUS
 
-This project is being developed as a 10-day hands-on Machine Learning learning project.
+This project is being developed as a 10-day hands-on Machine Learning project.
 
-The final model, evaluation metrics, and prediction results will be documented after experimentation and testing.
+Completed:
+- Day 1: Project Setup and Dataset Collection
+- Day 2: Exploratory Data Analysis
+- Day 3: Data Cleaning and Preprocessing
+- Day 4: Feature Engineering and Data Preparation
+- Day 5: Logistic Regression Model
 
-| Project Detail | Information |
-|---|---|
-| Project Name | Customer Churn Prediction |
-| Project Type | Supervised Machine Learning |
-| Problem Type | Binary Classification |
-| Primary Goal | Predict customer churn |
-| Repository | Customer Churn Prediction |
+Current Model:
+- Algorithm: Logistic Regression
+- Initial Test Accuracy: 80.38%
 
----
+The model will be further evaluated and compared with other classification algorithms.
